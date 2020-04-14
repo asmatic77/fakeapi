@@ -1,5 +1,4 @@
-{
-    "TCPConfig1" : 
+{   "TCPConfig": [    
         {
             "IPConfig": "Manual",
             "IPv4": "15.15.15.02",
@@ -8,5 +7,15 @@
             "DNSMethod": "Manual",
             "DNS1": "1.1.1.1",
             "DNS2": "1.1.1.2"
-        }    
+        },
+        {
+            "IPConfig": "Manual",
+            "IPv4": "15.15.15.02",
+            "NetMask": "255.255.255.0",
+            "Gateway": "15.15.15.1",
+            "DNSMethod": "DHCP",
+            "DNS1": "",
+            "DNS2": ""
+        }
+    ]  
 }
